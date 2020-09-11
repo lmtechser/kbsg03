@@ -2,7 +2,7 @@
 
 from odoo import models, fields, api
 
-class k_modulo(models.Model):
+class k_modulo2(models.Model):
       _inherit = 'res.partner'
         
       codigo = fields.Char('codigo')  
