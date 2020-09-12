@@ -6,6 +6,7 @@ class k_modulo2(models.Model):
       _inherit = 'res.partner'
         
       codigo = fields.Char('codigo')  
+      codigo5 = fields.Char('codigo5')  
       start_datetime = fields.Datetime('Start time', default=lambda self: fields.Datetime.now()) 
 #     _name = 'k_modulo2.k_modulo2'
 #     _description = 'k_modulo2.k_modulo2'
